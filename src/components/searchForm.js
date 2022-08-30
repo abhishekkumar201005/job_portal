@@ -27,7 +27,7 @@ const SearchForm = ({ onCompanyFilter, onRoleFilter, onLocationFilter }) => {
     }
   };
   return (
-    <div className="flex flex-col justify-center gap-x-5 bg-teal-200 shadow-md mx-12 my-6 p-6 rounded md:flex-col lg:flex-row">
+    <div className="flex flex-col justify-center gap-x-5 bg-teal-200 shadow-md mx-12 my-6 p-6 rounded md:flex-row lg:flex-row">
       <div className="mb-3 pt-0">
         <label className='text-xl font-bold text-rose-500'>Company</label>
         <input
